@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useCallback } from "react";
 import data from "../data/mockData.json";
 import Card from "../components/Card";
 import SummarizerForm from "../components/SummarizerForm";
@@ -12,6 +12,10 @@ function Dashboard() {
       item.summary.toLowerCase().includes(search.toLowerCase())
     );
   }, [search]);
+
+  const handleSearchChange = useCallback((e) => {
+    setSearch(e.target.value);
+  }, []);
 
   return (
     <div className="max-w-6xl mx-auto p-6">
@@ -28,7 +32,7 @@ function Dashboard() {
           placeholder="search..."
           className="border p-2 rounded-lg w-64 shadow-sm focus:ring-2 focus:ring-blue-400 outline-none"
           value={search}
-          onChange={(e) => setSearch(e.target.value)}
+          onChange={handleSearchChange}
         />
       </div>
 
