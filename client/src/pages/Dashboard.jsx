@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useCallback } from "react";
 import data from "../data/mockData.json";
 import Card from "../components/Card";
 import SummarizerForm from "../components/SummarizerForm";
@@ -13,6 +13,10 @@ function Dashboard() {
     );
   }, [search]);
 
+  const handleSearchChange = useCallback((e) => {
+    setSearch(e.target.value);
+  }, []);
+
   return (
     <div className="max-w-6xl mx-auto p-6">
       {/* אזור יצירת סיכום חדש */}
@@ -25,10 +29,10 @@ function Dashboard() {
         <h2 className="text-2xl font-bold text-gray-800">היסטוריית סיכומים</h2>
         <input
           type="text"
-          placeholder="חפש בסיכומים..."
+          placeholder="search..."
           className="border p-2 rounded-lg w-64 shadow-sm focus:ring-2 focus:ring-blue-400 outline-none"
           value={search}
-          onChange={(e) => setSearch(e.target.value)}
+          onChange={handleSearchChange}
         />
       </div>
 
