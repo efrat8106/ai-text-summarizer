@@ -1,62 +1,37 @@
 [
   {
-    "id": "a1f3c9b2-1d21-4f21-9a11-123456789001",
-    "title": "Complete project documentation",
+    "id": "1",
+    "title": "המהפכה התעשייתית",
+    "summary": "סיכום של התמורות הטכנולוגיות והחברתיות במאה ה-18, המעבר מעבודת יד למכונות והשפעת העירוניזציה.",
     "status": "completed",
-    "createdAt": "2026-03-01"
-  },
-  {
-    "id": "a1f3c9b2-1d21-4f21-9a11-123456789002",
-    "title": "Fix login bug in authentication system",
-    "status": "in progress",
-    "createdAt": "2026-03-03"
-  },
-  {
-    "id": "a1f3c9b2-1d21-4f21-9a11-123456789003",
-    "title": "Design dashboard layout",
-    "status": "pending",
-    "createdAt": "2026-03-05"
-  },
-  {
-    "id": "a1f3c9b2-1d21-4f21-9a11-123456789004",
-    "title": "Refactor old API code to improve performance",
-    "status": "in progress",
-    "createdAt": "2026-03-07"
-  },
-  {
-    "id": "a1f3c9b2-1d21-4f21-9a11-123456789005",
-    "title": "Create responsive card component with Tailwind styling",
-    "status": "completed",
-    "createdAt": "2026-03-08"
-  },
-  {
-    "id": "a1f3c9b2-1d21-4f21-9a11-123456789006",
-    "title": "Prepare presentation for project review meeting",
-    "status": "pending",
-    "createdAt": "2026-03-09"
-  },
-  {
-    "id": "a1f3c9b2-1d21-4f21-9a11-123456789007",
-    "title": "Implement filtering functionality in dashboard",
-    "status": "in progress",
     "createdAt": "2026-03-10"
   },
   {
-    "id": "a1f3c9b2-1d21-4f21-9a11-123456789008",
-    "title": "Write unit tests for service layer",
-    "status": "pending",
-    "createdAt": "2026-03-11"
-  },
-  {
-    "id": "a1f3c9b2-1d21-4f21-9a11-123456789009",
-    "title": "Investigate extremely long edge case title to ensure the UI card component behaves correctly even when text content becomes unusually long",
-    "status": "pending",
+    "id": "2",
+    "title": "יסודות הפוטוסינתזה",
+    "summary": "הסבר תמציתי על תהליך הפקת האנרגיה בצמחים בעזרת אור השמש, מים ופחמן דו-חמצני.",
+    "status": "completed",
     "createdAt": "2026-03-12"
   },
   {
-    "id": "a1f3c9b2-1d21-4f21-9a11-123456789010",
-    "title": "Deploy development build",
+    "id": "3",
+    "title": "מבוא לבינה מלאכותית",
+    "summary": "סקירה על התפתחות רשתות נוירונים, למידת מכונה והיכולת של מחשבים לעבד שפה טבעית.",
     "status": "completed",
-    "createdAt": "2026-03-13"
+    "createdAt": "2026-03-15"
+  },
+  {
+    "id": "4",
+    "title": "חוקי הניוטון",
+    "summary": "שלושת חוקי התנועה של ניוטון מוסברים בפשטות, כולל עקרון האינרציה ותגובה והיפוכה.",
+    "status": "completed",
+    "createdAt": "2026-03-17"
+  },
+  {
+    "id": "5",
+    "title": "כלכלה גלובלית 2026",
+    "summary": "ניתוח המגמות הכלכליות האחרונות, השפעת הדיגיטציה על השוק והשינויים בשרשראות האספקה.",
+    "status": "pending",
+    "createdAt": "2026-03-18"
   }
 ]
