@@ -25,7 +25,7 @@ function Dashboard() {
         <h2 className="text-2xl font-bold text-gray-800">היסטוריית סיכומים</h2>
         <input
           type="text"
-          placeholder="חפש בסיכומים..."
+          placeholder="search..."
           className="border p-2 rounded-lg w-64 shadow-sm focus:ring-2 focus:ring-blue-400 outline-none"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
